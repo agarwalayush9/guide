@@ -1,0 +1,114 @@
+header{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(66, 242, 255);
+    animation: opening 4s ease-in 0s;
+}
+
+body{
+    background-image: url(img.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+#choose,#feeling,.choosen{
+    /* margin: 100px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 28%;
+    margin-right: 20%;
+    color: rgb(41, 11, 175);
+    text-shadow: .2px .2px darkgrey;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 6%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(178, 206, 55, 0.486);
+    width: fit-content;
+}
+details summary{
+    cursor: pointer;
+    list-style: none;
+}
+details summary::before {
+    content: "➡️";
+}
+details[open] summary::before{
+    content: "⬇️";
+}
+
+.choosen{
+    background-color: rgba(42, 126, 165, 0.719);
+    color: burlywood;
+}
+h3{
+    margin-top: 0px;
+}
+.choose
+{
+    animation: invisible 3s ease 0s;
+}
+button{
+    border: none;
+    border-radius: 40%;
+}
+button:hover{
+    background-color: darkorange;
+}
+b{  
+    padding: 4px;
+    font-weight: 500;
+}
+#ch{
+    color: rgb(255, 104, 34);
+    text-decoration-line:underline ;
+    font-size: 20px;
+    text-shadow: 1px 1px brown;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkkhaki;
+    text-align: center;
+        
+}
+#feeling{
+    color: rgb(0, 217, 255);
+    background-color: rgba(255, 102, 0, 0.425);
+}
+
+@keyframes opening {
+    0%{
+        margin-top: 30%;
+        margin-right: 40%;      
+        opacity: 0%;
+    }   
+    50%{
+        opacity: 80%;
+    }    
+    100%{
+        margin-top: auto;
+        margin-right: auto;
+        opacity: 100%;
+    }
+}
+@keyframes invisible {
+    0%{
+        visibility: hidden;
+        
+    }    
+    80%{
+        visibility: hidden;
+    }
+    90%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+h1{
+    margin-bottom: 5px;
+    text-shadow: 1px 2px crimson;
+}
+small{
+    text-decoration-line: underline;
+}

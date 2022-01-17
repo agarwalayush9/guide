@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Guidance</title>
+    <link rel="stylesheet" href="fg.css">
+</head>
+<body>
+    <header>
+        <h1>Future Guidance</h1>
+        <small>Choose the Right for your flight</small>
+    </header>
+    <button id="back" onclick="back()">🔙</button>
+    <section id="choose" class="choose">
+        <span id="ch">How can we help You....</span><br><br><br>
+        <b>Guide me to select a subject for my higher studies..<b><button onclick="next()">➡️</button><br><br> <b>Help me to find a Course</b>
+        <button onclick="next1()">➡️</button><br><br>
+        <b >Feeling depressed </b>
+        <button onclick="next2()">➡️</button>
+    </section>
+
+    <section id="feeling">
+        <span style="text-decoration: underline; color: rgb(248, 250, 153);">How do you want to talk to a specialist</span><br><br>
+        <i>through chat</i> <button onclick="not()">➡️</button><br><br>
+        <i>Voice call</i> <button onclick="not()">➡️</button>
+    </section>
+    <h2>Comming soon...</h2>
+    <section class="choosen" id="form">
+        <h3 style="color: rgb(226, 84, 48); text-shadow: .5px .5px khaki;">Stay away from distraction</h3>
+        <span>Choose your class...</span><br><br>
+           <button>➡️</button> <span>Class 9th student</span><br><br>
+           <button>➡️</button> <span>Class 10th student</span><br><br>
+            <details>
+                 <summary> Class 11th/12th student</summary>
+                <br>
+            <span>SCIENCE STREAM</span>
+                <details>
+                    <summary style="font-size: 13px;">Subject choosen</summary>
+                    <button>➡️ </button><span> PCM</span><br>
+                    <button>➡️ </button><span> PCB</span><br>
+                    <button>➡️ </button><span> PCMB</span>
+                </details>
+            <br>
+            <button>➡️ </button><span> COMMERECE STREAM</span>
+            </details>
+
+    </section>
+</body>
+<script src="fg.js"></script>
+</html>
