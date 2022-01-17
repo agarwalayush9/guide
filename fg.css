@@ -1,7 +1,8 @@
 header{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(66, 242, 255);
+    color: rgb(22, 87, 206);
+    font-size: 25px;
     animation: opening 4s ease-in 0s;
 }
 
@@ -9,17 +10,18 @@ body{
     background-image: url(img.jpg);
     /* background-repeat: no-repeat; */
     background-size: cover;
+    /* background-size: contain; */
 }
 #choose,#feeling,.choosen{
     /* margin: 100px; */
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 28%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
     color: rgb(41, 11, 175);
     text-shadow: .2px .2px darkgrey;
     padding: 15px;
-    font-size: 17px;
-    margin-top: 6%;
+    font-size: 20px;
+    margin-top: 15%;
     border-radius: 20px;
     text-align: center;
     background-color: rgba(178, 206, 55, 0.486);
@@ -59,14 +61,14 @@ b{
     font-weight: 500;
 }
 #ch{
-    color: rgb(255, 104, 34);
+    color: rgb(199, 7, 65);
     text-decoration-line:underline ;
-    font-size: 20px;
-    text-shadow: 1px 1px brown;
+    font-size: 25px;
+    text-shadow: 1px 1px rgb(248, 132, 86);
 }
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkkhaki;
+    color: rgb(243, 89, 0);
     text-align: center;
         
 }
@@ -107,7 +109,7 @@ h2{
 }
 h1{
     margin-bottom: 5px;
-    text-shadow: 1px 2px crimson;
+    text-shadow: 1px 2px rgb(235, 238, 75);
 }
 small{
     text-decoration-line: underline;
